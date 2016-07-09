@@ -1,0 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 7precisions Blog
+description: 7Precisions is the software development company with highly skilled professionals that can exceed your expectations in all areas.
+
+url: https://7precisions.github.io
+baseurl: ""
+paginate_path: ":categories/page:num/"
+permalink: :categories/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: 7precisions
+   twitter: 7precisions
+   facebook: 7precisions
+   email: contact@7precisions.com
+
+google_analytics: "UA-25549072-5"
