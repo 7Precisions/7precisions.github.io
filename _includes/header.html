@@ -1,14 +1,12 @@
 <div class="header">
   <div class="container">
-    <!-- <img src="{{ '/assets/img/7precisions_logo.png' | prepend: site.baseurl }}" alt="" style="width: 100px;">  -->
     <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <a href="http://www.7precisions.com" alt="7Precisions"><img src="{{ '/assets/img/7precisions_logo.png' }}" alt="" style="width: 100px; position: absolute;"> </a>
     <nav class="nav-collapse">
       <ul class="noList">
-        {% for link in site.navigation %}{% assign current = nil %}{% if page.url contains link.url %}{% assign current = 'current' %}{% endif %}
-        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-        <a href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-        </li> 
-        {% endfor %}
+        <li> <a href="/index.html">Home</a></li>
+        <li> <a href="http://www.7precisions.com/about">About</a></li>
+        <li> <a href="http://www.7precisions.com/contactus">Contact</a></li>
         <li> <a href="https://github.com/CreoMark" target="_blank">GitHub</a></li>
       </ul>
     </nav>
