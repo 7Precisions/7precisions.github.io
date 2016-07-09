@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Skiddle Ruby"
+title:  "7Precisions Blog | Skiddle Ruby"
+pagination_title: "Skiddle Ruby"
 description: "A gem for accessing the Skiddle API"
 date:   2016-06-17 12:20:57 +0530
 categories: ruby
+author: CreoMark
+github: https://github.com/CreoMark/skiddle-ruby
 ---
 A gem for accessing the Skiddle API
 
@@ -179,12 +182,3 @@ Skiddle::Artist.search({name: 'Alkaline', venueid: 11398}) # => returns list of 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-## Let’s build something great:
-
-We’d love to design & build your next big idea, or lend a hand on an existing project.
-
-	Email - contact@7precisions.com
-	Website - http://7precisions.com
-	
-![alt tag](https://www.google.com/a/cpanel/7precisions.com/images/logo.gif?alpha=1&service=google_default)
